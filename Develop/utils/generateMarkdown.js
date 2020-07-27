@@ -6,10 +6,10 @@ function generateMarkdown(data) {
 
   ***
 
-  ### Table of Contents:
+  ## Table of Contents:
 
   1. [How to Install ${data.title}](#Installation)
-  2. [Using ${data.title}](#How%20To%20Use%20${data.title})
+  2. [Using ${data.title}](#How%20To%20Use%20This%20Application)
   3. [Testing ${data.title}](#Test%20Code)
   4. [Contributors](#Contributors)
   5. [Ask Us Questions](#Ask%20Questions)
@@ -17,27 +17,27 @@ function generateMarkdown(data) {
 
   ***
 
-  # Installation
+  ## Installation
 
-  ${install}
+  ${data.install}
 
-  # How to Use ${data.title}
+  ## How to Use This Application
 
-  ${usage}
+  ${data.usage}
 
-  # Test Code
+  ## Test Code
 
   ${data.tests}
 
-  # Contributors
+  ## Contributors
 
   ${data.contribute}
 
-  # Ask Questions
+  ## Ask Questions
 
   ${data.questions}
 
-  # License
+  ## License
 
   ${data.license}
 
