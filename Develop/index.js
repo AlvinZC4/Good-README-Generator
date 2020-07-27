@@ -13,7 +13,7 @@ const questions = [
 "Describe how to use your application.",
 "Provide some tests for your application and some examples on how to run them.",
 "Who are the contributers to your application?",
-"What are the licenses you have used?",
+"Select a license for your code",
 "How can users submit questions to you about the application?"
 ];
 
@@ -56,9 +56,15 @@ function init() {
             message: questions[5]
         },
         {
-            type: "input",
+            type: "list",
             name: "license",
-            message: questions[6]
+            message: questions[6],
+            choices: [
+                "MIT License",
+                "Apache License",
+                "GPL License",
+                "Public Domain (Unlicense)"
+            ]
         },
         {
             type: "input",
