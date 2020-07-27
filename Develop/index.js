@@ -23,6 +23,25 @@ function writeToFile(fileName, data) {
     writeFileAsync(fileName, data)
 }
 
+function licenseBadge(data) {
+
+    let badgeImage
+
+    if (data.license === "MIT License") {
+        badgeImage = "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+    else if (data.license === "Apache License") {
+        badgeImage = "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)"
+    }
+    else if (data.license === "GPL License") {
+        badgeImage = "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)"
+    }
+    else {
+        badgeImage === "![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)"
+    }
+    return badgeImage
+}
+
 // function to initialize program
 function init() {
     return inquirer.prompt([
@@ -79,7 +98,9 @@ function init() {
         }
     ]).then(function(answers) {
 
-        const README = generatrMarkdown(answers)
+        const licenseImage = licenseBadge(answers)
+
+        const README = generatrMarkdown(answers, licenseImage)
 
         return writeToFile("README.md", README)
     })

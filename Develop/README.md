@@ -1,14 +1,16 @@
-# Good README Generator
+# README
 
-  This application is used to quickly create a quality README for developers to deploy along side their code so that the developer can spend more time focusing on their code.
+  Create README
+
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ***
 
   ## Table of Contents:
 
-  1. [How to Install Good README Generator](#Installation)
-  2. [Using Good README Generator](#How%20To%20Use%20This%20Application)
-  3. [Testing Good README Generator](#Test%20Code)
+  1. [How to Install README](#Installation)
+  2. [Using README](#How%20To%20Use%20This%20Application)
+  3. [Testing README](#Test%20Code)
   4. [Contribution Guidlines](#Contribution%20Guidelines)
   5. [Ask Us Questions](#Ask%20Questions)
   6. [Licenses](#License)
@@ -17,19 +19,19 @@
 
   ## Installation
 
-  Run npm i to install dependencies
+  npm i
 
   ## How to Use This Application
 
-  Run node index in the CLI and then answer the prompts
+  run node index
 
   ## Test Code
 
-  Run npm test in order to run the test code that was used to develop this application
+  npm test
 
   ## Contribution Guidlines
 
-  This is an open source application that can be contributed to by anyone
+  guidelines
 
   ## Ask Questions
 
