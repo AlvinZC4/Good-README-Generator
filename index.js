@@ -102,7 +102,7 @@ function init() {
 
         const README = generatrMarkdown(answers, licenseImage)
 
-        return writeToFile("README.md", README)
+        return writeToFile("./Generated/README.md", README)
     })
     .then(function() {
         console.log("Successfully wrote README")
