@@ -11,7 +11,7 @@ function generateMarkdown(data) {
   1. [How to Install ${data.title}](#Installation)
   2. [Using ${data.title}](#How%20To%20Use%20This%20Application)
   3. [Testing ${data.title}](#Test%20Code)
-  4. [Contributors](#Contributors)
+  4. [Contribution Guidlines](#Contribution%20Guidelines)
   5. [Ask Us Questions](#Ask%20Questions)
   6. [Licenses](#License)
 
@@ -29,17 +29,19 @@ function generateMarkdown(data) {
 
   ${data.tests}
 
-  ## Contributors
+  ## Contribution Guidlines
 
   ${data.contribute}
 
   ## Ask Questions
 
-  ${data.questions}
+  Visit my GitHub Page: [My GitHub Profile Page](https://github.com/${data.github})
+ -OR-
+ Drop me an e-mail at: ${data.questions}
 
   ## License
 
-  ${data.license}
+  This applicaton is covered under the ${data.license}
 
 `;
 }

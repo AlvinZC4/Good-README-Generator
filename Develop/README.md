@@ -1,6 +1,6 @@
 # Good README Generator
 
-  This application is used for developers to quickly generate a good quality README so that they may focus more of their time writing code.
+  This application is used to quickly create a quality README for developers to deploy along side their code so that the developer can spend more time focusing on their code.
 
   ***
 
@@ -9,7 +9,7 @@
   1. [How to Install Good README Generator](#Installation)
   2. [Using Good README Generator](#How%20To%20Use%20This%20Application)
   3. [Testing Good README Generator](#Test%20Code)
-  4. [Contributors](#Contributors)
+  4. [Contribution Guidlines](#Contribution%20Guidelines)
   5. [Ask Us Questions](#Ask%20Questions)
   6. [Licenses](#License)
 
@@ -17,25 +17,27 @@
 
   ## Installation
 
-  Clone the Good README Generator repository from GitHub. Navigate your CLI to the folder containing the cloned repository. Run npm i to download the required dependencies .
+  Run npm i to install dependencies
 
   ## How to Use This Application
 
-  Use the CLI to run index in node.js
+  Run node index in the CLI and then answer the prompts
 
   ## Test Code
 
-  Run npm test using the CLI to run the test code.
+  Run npm test in order to run the test code that was used to develop this application
 
-  ## Contributors
+  ## Contribution Guidlines
 
-  Alvin Cox
+  This is an open source application that can be contributed to by anyone
 
   ## Ask Questions
 
-  e-mail: alvinzcoxiv@gmail.com
+  Visit my GitHub Page: [My GitHub Profile Page](https://github.com/AlvinZC4)
+ -OR-
+ Drop me an e-mail at: alvinzcoxiv@gmail.com
 
   ## License
 
-  MIT License
+  This applicaton is covered under the MIT License
 

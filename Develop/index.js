@@ -12,9 +12,10 @@ const questions = [
 "Give instructions on how properly install your application.",
 "Describe how to use your application.",
 "Provide some tests for your application and some examples on how to run them.",
-"Who are the contributers to your application?",
+"What are the contribution guidelines for your application?",
 "Select a license for your code",
-"How can users submit questions to you about the application?"
+"Type your e-mail address",
+"Type your GitHub username"
 ];
 
 // function to write README file
@@ -70,6 +71,11 @@ function init() {
             type: "input",
             name: "questions",
             message: questions[7]
+        },
+        {
+            type: "input",
+            name: "github",
+            message: questions[8]
         }
     ]).then(function(answers) {
 
