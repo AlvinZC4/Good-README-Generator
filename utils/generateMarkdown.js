@@ -31,7 +31,7 @@ function generateMarkdown(data, image) {
 
   ${data.tests}
 
-  ## Contribution Guidlines
+  ## Contribution Guidelines
 
   ${data.contribute}
 
