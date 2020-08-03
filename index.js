@@ -25,6 +25,8 @@ function writeToFile(fileName, data) {
 
 function licenseBadge(data) {
 
+    console.log(data)
+
     let badgeImage
 
     if (data.license === "MIT License") {
@@ -37,8 +39,10 @@ function licenseBadge(data) {
         badgeImage = "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)"
     }
     else {
-        badgeImage === "![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)"
+        badgeImage = "![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)"
     }
+    console.log(badgeImage)
+
     return badgeImage
 }
 
