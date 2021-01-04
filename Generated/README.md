@@ -1,6 +1,6 @@
-# The Budget Tracker
+# Hacker News Algolia Web Scrapper
 
-  The Budget Tracker is an application that allows the user to manage their budget by displaying how much money the user currently has and keeping up with all of their transactions.
+  The Hacker News Algolia Web Scrapper is an application that allows the user to search for articles by title and the app will return 20 results that will display the title of the article, the author. The title of the article is a link that will take the user to the article if clicked.
 
   ![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)
 
@@ -8,9 +8,9 @@
 
   ## Table of Contents:
 
-  1. [How to Install The Budget Tracker](#Installation)
-  2. [Using The Budget Tracker](#How%20To%20Use%20This%20Application)
-  3. [Testing The Budget Tracker](#Test%20Code)
+  1. [How to Install Hacker News Algolia Web Scrapper](#Installation)
+  2. [Using Hacker News Algolia Web Scrapper](#How%20To%20Use%20This%20Application)
+  3. [Testing Hacker News Algolia Web Scrapper](#Test%20Code)
   4. [Contribution Guidlines](#Contribution%20Guidelines)
   5. [Ask Us Questions](#Ask%20Questions)
   6. [Licenses](#License)
@@ -19,19 +19,19 @@
 
   ## Installation
 
-  Navigate a web browser to https://salty-garden-64216.herokuapp.com/
+  Simply navigate your browser to ... to access the application. Type your search criteria into the search field and click on the search button.
 
   ## How to Use This Application
 
-  Give each transaction a name and an amount, then to add that amount to the total click the "add funds" button, or to remove the amount from the total click the "subtrack funds"button. The total amount of money the user has is displayed at the top of the page. Also, a list of all transactions is displayed as well as a chart that illustrates the amount of money the user had as a function of the number of transactions that have been completed.
+  Simply navigate your browser to ... to access the application. Type your search criteria into the search field and click on the search button.
 
   ## Test Code
 
-  no test were preformed during the development of this application
+  no test were created in the development of this application.
 
   ## Contribution Guidelines
 
-  Please check your code for errors before making a pull request.
+  
 
   ## Ask Questions
 
